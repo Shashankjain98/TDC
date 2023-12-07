@@ -4,9 +4,6 @@
 
 This repository contains a simple implementation of distributed deep learning using TensorFlow, specifically designed for multi-GPU training. The provided script defines a basic neural network using the Keras API, preprocesses the MNIST dataset, and employs the MirroredStrategy for synchronous training across multiple GPUs.
 
-
-## Overview
-
 The script demonstrates a straightforward example of leveraging distributed computing to enhance efficiency in deep learning tasks. The key components include:
 
 1. **Model Definition:** A simple neural network model is defined using the Keras API. The model consists of a flattening layer, a dense layer with ReLU activation, a dropout layer, and a final dense layer.
