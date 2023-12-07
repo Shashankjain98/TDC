@@ -27,10 +27,7 @@ To run the script, ensure you have the following dependencies installed:
 ## Getting Started
 
 1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/your-username/distributed-deep-learning-tensorflow.git
-   cd distributed-deep-learning-tensorflow
+   git clone https://github.com/Shashankjain98/TDC/distributed-deep-learning-tensorflow.git
 2. Install the required dependencies:
     pip install tensorflow
 3. Run the script:
@@ -44,5 +41,47 @@ This project is licensed under the MIT License.
 
 ## Acknowledgements
 Special thanks to the TensorFlow team for providing powerful tools for distributed deep learning.
+
 Feel free to modify and extend the code for your own projects. If you encounter any issues or have suggestions, please open an issue or submit a pull request.
 
+# Performance Comparison: Single vs Distributed Deep Learning
+
+## Overview
+
+This repository provides a simple script for comparing the performance of single-machine training and distributed deep learning over multiple epochs. The script uses matplotlib to plot accuracy over different epochs for both scenarios.
+The script generates a performance comparison plot for single-machine training and distributed deep learning based on provided accuracy data over multiple epochs.
+
+## Prerequisites
+
+Ensure you have the following dependencies installed:
+
+- Python 3.x
+- Matplotlib
+
+## Getting Started
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/Shashankjain98/TDC/performance-comparison.git
+   
+2. Install the required dependencies:
+   pip install matplotlib
+   
+3. python DDL.ipynb
+
+## Results
+
+The script generates a plot comparing the accuracy of single-machine training and distributed deep learning over different epochs. The x-axis represents epochs, and the y-axis represents accuracy. The plot is displayed using Matplotlib.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgements
+
+Special thanks to the Matplotlib development team for providing a powerful plotting library.
+
+Feel free to modify and extend the script for your own projects. If you encounter any issues or have suggestions, please open an issue or submit a pull request.
+
+   
