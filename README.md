@@ -5,8 +5,6 @@
 This repository contains a simple implementation of distributed deep learning using TensorFlow, specifically designed for multi-GPU training. The provided script defines a basic neural network using the Keras API, preprocesses the MNIST dataset, and employs the MirroredStrategy for synchronous training across multiple GPUs.
 
 
-- [Acknowledgments](#acknowledgments)
-
 ## Overview
 
 The script demonstrates a straightforward example of leveraging distributed computing to enhance efficiency in deep learning tasks. The key components include:
@@ -36,4 +34,15 @@ To run the script, ensure you have the following dependencies installed:
 2. Install the required dependencies:
     pip install tensorflow
 3. Run the script:
-    
+    python Multi_Gpu_DDL.ipynb
+## Results
+   ...
+Test accuracy: 0.9768999814987183
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgements
+Special thanks to the TensorFlow team for providing powerful tools for distributed deep learning.
+Feel free to modify and extend the code for your own projects. If you encounter any issues or have suggestions, please open an issue or submit a pull request.
+
